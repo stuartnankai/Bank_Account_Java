@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="BankAccountTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2018-03-22T15:12:37" hostname="MacBook-Pro-7.local" time="0.596">
+<testsuite name="BankAccountTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2018-03-22T15:23:53" hostname="MacBook-Pro-7.local" time="0.598">
   <properties/>
-  <testcase name="canDepositMoneySequentially" classname="BankAccountTest" time="0.001"/>
-  <testcase name="cannotGetBalanceOfClosedAccount" classname="BankAccountTest" time="0.004"/>
-  <testcase name="cannotDepositNegativeAmount" classname="BankAccountTest" time="0.001"/>
+  <testcase name="canDepositMoneySequentially" classname="BankAccountTest" time="0.0"/>
+  <testcase name="cannotGetBalanceOfClosedAccount" classname="BankAccountTest" time="0.005"/>
+  <testcase name="cannotDepositNegativeAmount" classname="BankAccountTest" time="0.0"/>
   <testcase name="cannotWithdrawNegativeAmount" classname="BankAccountTest" time="0.0"/>
   <testcase name="cannotWithdrawMoreMoneyThanYouHave" classname="BankAccountTest" time="0.0"/>
   <testcase name="canDepositMoney" classname="BankAccountTest" time="0.0"/>
-  <testcase name="bankAccountIsClosedBeforeItIsOpened" classname="BankAccountTest" time="0.001"/>
+  <testcase name="bankAccountIsClosedBeforeItIsOpened" classname="BankAccountTest" time="0.0"/>
   <testcase name="newlyOpenedAccountHasEmptyBalance" classname="BankAccountTest" time="0.0"/>
   <testcase name="cannotWithdrawMoneyFromEmptyAccount" classname="BankAccountTest" time="0.0"/>
-  <testcase name="canAdjustBalanceConcurrently" classname="BankAccountTest" time="0.586"/>
+  <testcase name="canAdjustBalanceConcurrently" classname="BankAccountTest" time="0.588"/>
   <testcase name="cannotWithdrawMoneyFromClosedAccount" classname="BankAccountTest" time="0.0"/>
   <testcase name="canWithdrawMoney" classname="BankAccountTest" time="0.0"/>
   <testcase name="cannotDepositMoneyIntoClosedAccount" classname="BankAccountTest" time="0.001"/>
